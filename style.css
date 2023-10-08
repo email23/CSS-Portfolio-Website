@@ -1,0 +1,36 @@
+#Header {
+    font-size: 50px;
+    text-decoration: green;
+    justify-content: center;
+    display: flex;
+}
+
+.Nav {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: gray;
+    border-width: 10px;
+}
+
+.Aboutme{ 
+    display: flex;
+    border-width: 12 px;
+    border-style: solid;
+    border-color: black;
+    height: 400px;
+    width: auto;
+}
+
+.Abtmeimg{
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+#Abtme-title-container{
+    display: inline-block;
+    margin-left: 700px;
+    font-size: 80px;
+}
