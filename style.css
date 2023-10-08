@@ -39,8 +39,10 @@
     display: flex;
     border-style: solid;
     border-color: black;
+    border-width: 10px;
     height: 400px;
     width: auto;
+
 }
 
 
@@ -55,16 +57,19 @@
     align-items: center;
 }
 
-#projectitle{
+.projectitle{
+    display: flex;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     text-decoration: underline;
     height: 5px;
+
 }
 
 
 .imgcontainer{
-    display: block;
+    display: flex;
     height: 400px;
     width: auto;
     border-color: silver;
@@ -73,11 +78,3 @@
     justify-content: center;
 } 
 
-/* .contactinfo{ */
-    display: flex;
-    font-size: 30px;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-    height: 200px;
-/* } */
