@@ -4,7 +4,7 @@
     justify-content: center;
     display: flex;
 }
-
+/* #Header contains my name at the top of the page */
 .Nav {
     display: flex;
     font-size: 30px;
@@ -13,7 +13,7 @@
     border-color: gray;
     border-width: 10px;
 }
-
+/* nav contains the hyperlinks that jump to different sections of the code */
 #Aboutme{ 
     display: flex;
     border-width: 12px;
@@ -22,19 +22,19 @@
     height: 400px;
     width: auto;
 }
-
+/* the #Aboutme Id is used to hold the image and text box describing me */
 .Abtmeimg{
     display: block;
     width: 400px;
     height: 400px;
 }
-
+/* my photo on the page */
 #Abtme-title-container{
     display: inline-block;
     margin-left: 700px;
     font-size: 30px;
 }
-
+/* title above the text box explaining who I am */
 #Projects{
     display: flex;
     border-style: solid;
@@ -45,7 +45,7 @@
     justify-content: center;
 
 }
-
+/* container holding placeholders of future projects */
 
 #References{
     display: flex;
@@ -58,7 +58,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* container holding my email, github, and linkedin */
 .Projectitle{
     display: flex;
     justify-content: center;
@@ -69,17 +69,8 @@
     margin-top: 15px;
 
 }
+/* text above the placeholders in my project section */
 
-
-/* .imgcontainer{
-    display: inline-block;
-    height: 400px;
-    width: auto;
-    border-color: silver;
-    border-width: 15px;
-    border-style: solid;
-    justify-content: center;
-}  */
 
 .img1{
     display: inline-block;
@@ -90,7 +81,7 @@
     border-style: solid;
     justify-content: center;
 }
-
+/* under construction image inside of project section */
 .img2{
     display: inline-block;
     height: 400px;
@@ -100,7 +91,7 @@
     border-style: solid;
     justify-content: center;
 }
-
+/* pizza in the clouds image inside of project section */
 .img3{
     display: inline-block;
     height: 400px;
@@ -110,3 +101,4 @@
     border-style: solid;
     justify-content: center;
 }
+/* hamburger image inside of project section */
