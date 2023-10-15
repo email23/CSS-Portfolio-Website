@@ -11,35 +11,33 @@
 <body>
     
     <header>
-     <div id = "Header"> Emmanuel Sanchez</div>
+        <!-- this tag contains my name that is at the top of the page -->
+     <h1 id = "Header"> Emmanuel Sanchez</h1>
     </header>
 
     <nav>
         <!--links that references to sections of the page -->
         <ul class = "Nav" > 
-        <li><a href="#aboutme"> Aboutme</a></li> 
+        <li><a href="#aboutme"> About Me</a></li> 
         <li><a href="#Projects"> Projects</a></li>
-        <li><a href="#References">References</a></li>
+        <li><a href="#References"> References</a></li>
         </ul>
     </nav>
 
     <section id = "Aboutme">
-        <!--img container-->
-        <div><img class="Abtmeimg" src="C:\Users\manny\Downloads\IMG_20220405_160206893_HDR.jpg" alt="me outside in the forest taking a photo of myself and smiling at the camera."></div>
-
-        <div>
-            <h2 id="Abtme-title-container" >Title</h2>
+      <!-- I had to restructure this section because I was trying to make the title fit on the same line but struggled to do it, so what I found was a float property that could be used on the image in order to move it to the left of the title and stay on the same line. -->
+        <h2 id = "Abtme-title-container" > About Me  <img class="Abtmeimg" src="C:\Users\manny\Downloads\IMG_20220405_160206893_HDR.jpg" alt="portfolio owner outside in the forest taking a photo of myself and smiling at the camera."> </h2>
     
+        <p class = "abtmeptag">Hello my name is Emmanuel and I want to learn how to become a web developer and hope to work in web development. Im trying to take the first steps by taking an online course. It's been fun learning about all the different computer languages that exist and that can be implemented and how all of these languages work together to make the internet function.
+        </p>
     
     </section>
 
-
-
-
     <section id="Projects"> 
+        <!-- this section contains all the place holders used to represent the projects that will later be added -->
         <div>
             <ui>
-                <h4 class="Projectitle">projects</h4>
+                <h2 class="Projectitle">projects</h2>
                 <img class="img1" src= "C:\Users\manny\Downloads\website-under-construction image.jpg" alt=" Under construction image">
                 <img class="img2"  src="C:\Users\manny\Downloads\pizza in the clouds.jpg" alt="pizza in the clouds">
                 <img class="img3"  src="C:\Users\manny\Downloads\hamburger image.jpg" alt="hamburger">
@@ -47,20 +45,14 @@
         </div>
     </section>
 
-
-
-
-    <footer id="References">
-
-            
+    <footer id = "References">
+        <!-- this section contains all the links that can be used to contact me -->
                 <li> Linkedin: <a href="https://www.linkedin.com/in/emmanuel-sanchez-978ba1285/"> Emmanuel Sanchez</a></li>
                 <li> Gmail: <a href="mailto:mannysanchez0804@gmail.com">mannysanchez0804@gmail.com</a></li>
                 <li> Github: <a href="https://github.com/email23">email23</a></li>
            
-       
     </footer>
 
-
-
 </body>
+
 </html>

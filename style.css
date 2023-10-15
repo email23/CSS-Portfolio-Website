@@ -1,10 +1,12 @@
+/* #Header contains my name at the top of the page */
 #Header {
     font-size: 50px;
     text-decoration: green;
     justify-content: center;
     display: flex;
 }
-/* #Header contains my name at the top of the page */
+
+/* nav contains the hyperlinks that jump to different sections of the code */
 .Nav {
     display: flex;
     font-size: 30px;
@@ -13,28 +15,38 @@
     border-color: gray;
     border-width: 10px;
 }
-/* nav contains the hyperlinks that jump to different sections of the code */
+
+/* the #Aboutme Id is used to hold the image and text box describing me */
 #Aboutme{ 
-    display: flex;
+    display: inline-block;
     border-width: 12px;
     border-style: solid;
     border-color: black;
     height: 400px;
-    width: auto;
+    width: 100%;
+    text-align: center;
 }
-/* the #Aboutme Id is used to hold the image and text box describing me */
-.Abtmeimg{
-    display: block;
-    width: 400px;
-    height: 400px;
-}
+
 /* my photo on the page */
-#Abtme-title-container{
-    display: inline-block;
-    margin-left: 700px;
-    font-size: 30px;
+.Abtmeimg{
+    width: 250px;
+    height: 250px;
+    float: left;
 }
+
 /* title above the text box explaining who I am */
+#Abtme-title-container{
+    font-size: 30px;
+    margin-top: 0;
+    
+}
+/* these are the properties of the p tag underneath the title */
+.abtmeptag{
+    width: 43%;
+    margin-left: 35%;
+}
+
+/* container holding placeholders of future projects */
 #Projects{
     display: flex;
     border-style: solid;
@@ -45,8 +57,8 @@
     justify-content: center;
 
 }
-/* container holding placeholders of future projects */
 
+/* container holding my email, github, and linkedin */
 #References{
     display: flex;
     border-style: solid;
@@ -58,7 +70,8 @@
     justify-content: space-evenly;
     align-items: center;
 }
-/* container holding my email, github, and linkedin */
+
+/* text above the placeholders in my project section */
 .Projectitle{
     display: flex;
     justify-content: center;
@@ -69,9 +82,9 @@
     margin-top: 15px;
 
 }
-/* text above the placeholders in my project section */
 
 
+/* under construction image inside of project section */
 .img1{
     display: inline-block;
     height: 400px;
@@ -81,7 +94,8 @@
     border-style: solid;
     justify-content: center;
 }
-/* under construction image inside of project section */
+
+/* pizza in the clouds image inside of project section */
 .img2{
     display: inline-block;
     height: 400px;
@@ -91,7 +105,8 @@
     border-style: solid;
     justify-content: center;
 }
-/* pizza in the clouds image inside of project section */
+
+/* hamburger image inside of project section */
 .img3{
     display: inline-block;
     height: 400px;
@@ -101,4 +116,3 @@
     border-style: solid;
     justify-content: center;
 }
-/* hamburger image inside of project section */
